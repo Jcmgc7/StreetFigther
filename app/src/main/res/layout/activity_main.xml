@@ -6,13 +6,414 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/portada"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="76dp"
+        android:background="@android:color/transparent"
+        android:onClick="inic"
+        android:src="@drawable/boton_inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="128dp"
+        android:src="@drawable/start"
+        android:clickable="true"
+        android:onClick="start"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/ryu"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="ryu"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/ryu575" />
+
+    <ImageView
+        android:id="@+id/ken"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="ken"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/ken575"/>
+
+    <ImageView
+        android:id="@+id/chunli"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="chunli"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/chunli434" />
+
+    <ImageView
+        android:id="@+id/guile"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="guile"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/guile575" />
+
+    <ImageView
+        android:id="@+id/blanka"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="blanka"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/blanka575" />
+
+    <ImageView
+        android:id="@+id/dhalsim"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="dhalsim"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/dhalsim"/>
+
+    <ImageView
+        android:id="@+id/honda"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="honda"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/honda575"/>
+
+    <ImageView
+        android:id="@+id/zangief"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="zangief"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/zangief575"/>
+
+    <ImageView
+        android:id="@+id/thawk"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="thawk"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/thawk575"/>
+
+    <ImageView
+        android:id="@+id/deejay"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="deejay"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/deejay"/>
+
+    <ImageView
+        android:id="@+id/cammy"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="cammy"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/cammy575"/>
+
+    <ImageView
+        android:id="@+id/balrog"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="balrog"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/balrog575"/>
+
+    <ImageView
+        android:id="@+id/vega"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="vega"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/vega575"/>
+
+    <ImageView
+        android:id="@+id/sagat"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="sagat"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/sagat575"/>
+
+    <ImageView
+        android:id="@+id/bison"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="bison"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/bison575"/>
+
+    <ImageView
+        android:id="@+id/inicio_pelea"
+        android:layout_width="155dp"
+        android:layout_height="86dp"
+        android:clickable="true"
+        android:onClick="inicio_pelea"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="560dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:srcCompat="@drawable/inicio_pelea" />
+    <ImageView
+        android:id="@+id/ryu_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="ryu_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/ryu575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ken_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="ken_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/ken575"/>
+
+    <ImageView
+        android:id="@+id/chunli_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="chunli_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/chunli434"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/guile_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="guile_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/guile575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/blanka_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="blanka"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:srcCompat="@drawable/blanka575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dhalsim_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="dhalsim_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/dhalsim"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/honda_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="honda_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/honda575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/zangief_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="zangief_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/zangief575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/thawk_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="thawk_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/thawk575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/deejay_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="deejay_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:srcCompat="@drawable/deejay"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cammy_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="cammy_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/cammy575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/balrog_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="balrog_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/balrog575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/vega_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="vega_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/vega575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/sagat_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="sagat_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/sagat575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/bison_2"
+        android:layout_width="79dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="bison_2"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:srcCompat="@drawable/bison575"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/comabtiente1"
+        android:layout_width="195dp"
+        android:layout_height="270dp"
+        android:layout_marginEnd="412dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@drawable/ryupose1" />
+
+    <ImageView
+        android:id="@+id/comabtiente2"
+        android:layout_width="198dp"
+        android:layout_height="281dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="475dp"
+        tools:layout_editor_absoluteY="114dp"
+        tools:srcCompat="@drawable/kenpose2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
