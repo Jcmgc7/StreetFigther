@@ -25,6 +25,7 @@
         android:background="@android:color/transparent"
         android:onClick="inic"
         android:src="@drawable/boton_inicio"
+        android:contentDescription="Botón para realizar una acción importante"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -52,7 +53,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/ryu575" />
+        tools:srcCompat="@drawable/ryu_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/ken"
@@ -63,7 +65,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/ken575"/>
+        tools:srcCompat="@drawable/ken_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/chunli"
@@ -74,7 +77,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/chunli434" />
+        tools:srcCompat="@drawable/chunli_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/guile"
@@ -85,7 +89,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="376dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/guile575" />
+        tools:srcCompat="@drawable/guile_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/blanka"
@@ -96,7 +101,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="484dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/blanka575" />
+        tools:srcCompat="@drawable/blanka_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/dhalsim"
@@ -107,7 +113,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/dhalsim"/>
+        tools:srcCompat="@drawable/dhalsim"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/honda"
@@ -118,7 +125,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/honda575"/>
+        tools:srcCompat="@drawable/honda_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/zangief"
@@ -129,7 +137,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/zangief575"/>
+        tools:srcCompat="@drawable/zangief_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/thawk"
@@ -140,7 +149,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="376dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/thawk575"/>
+        tools:srcCompat="@drawable/thawk_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/deejay"
@@ -151,7 +161,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="484dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/deejay"/>
+        tools:srcCompat="@drawable/deejay"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/cammy"
@@ -162,7 +173,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/cammy575"/>
+        tools:srcCompat="@drawable/cammy_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/balrog"
@@ -173,7 +185,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/balrog575"/>
+        tools:srcCompat="@drawable/balrog_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/vega"
@@ -184,7 +197,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/vega575"/>
+        tools:srcCompat="@drawable/vega_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/sagat"
@@ -195,7 +209,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="376dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/sagat575"/>
+        tools:srcCompat="@drawable/sagat_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/bison"
@@ -206,7 +221,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="484dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/bison575"/>
+        tools:srcCompat="@drawable/bison_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/inicio_pelea"
@@ -217,7 +233,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="560dp"
         tools:layout_editor_absoluteY="300dp"
-        tools:srcCompat="@drawable/inicio_pelea" />
+        tools:srcCompat="@drawable/inicio_pelea"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/ryu_2"
         android:layout_width="79dp"
@@ -227,7 +244,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/ryu575"
+        tools:srcCompat="@drawable/ryu_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -239,7 +256,8 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/ken575"/>
+        tools:srcCompat="@drawable/ken_i"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/chunli_2"
@@ -250,7 +268,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/chunli434"
+        tools:srcCompat="@drawable/chunli_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -262,7 +280,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="376dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/guile575"
+        tools:srcCompat="@drawable/guile_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -274,7 +292,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="484dp"
         tools:layout_editor_absoluteY="39dp"
-        tools:srcCompat="@drawable/blanka575"
+        tools:srcCompat="@drawable/blanka_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -298,7 +316,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/honda575"
+        tools:srcCompat="@drawable/honda_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -310,7 +328,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/zangief575"
+        tools:srcCompat="@drawable/zangief_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -322,7 +340,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="376dp"
         tools:layout_editor_absoluteY="120dp"
-        tools:srcCompat="@drawable/thawk575"
+        tools:srcCompat="@drawable/thawk_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -346,7 +364,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/cammy575"
+        tools:srcCompat="@drawable/cammy_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -358,7 +376,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/balrog575"
+        tools:srcCompat="@drawable/balrog_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -370,7 +388,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/vega575"
+        tools:srcCompat="@drawable/vega_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -382,7 +400,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="376dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/sagat575"
+        tools:srcCompat="@drawable/sagat_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -394,7 +412,7 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="484dp"
         tools:layout_editor_absoluteY="204dp"
-        tools:srcCompat="@drawable/bison575"
+        tools:srcCompat="@drawable/bison_i"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -406,7 +424,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:srcCompat="@drawable/ryupose1" />
+        tools:srcCompat="@drawable/ryupose_pp" />
 
     <ImageView
         android:id="@+id/comabtiente2"
@@ -415,5 +433,6 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteX="475dp"
         tools:layout_editor_absoluteY="114dp"
-        tools:srcCompat="@drawable/kenpose2" />
+        tools:srcCompat="@drawable/kenpose_pv"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

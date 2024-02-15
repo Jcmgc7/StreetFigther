@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_main);
         Peleador ryu1 = new Peleador("Ryu", "src/img/paises/japon.png", 26, 1.75, 85, 27, 32, 31, "Luchador entrenado por Gouken famoso por su potente Hadoken, golpe ganador con el que \r\n"
                 + "derrotó a Sagat en el primer torneo y lo hirió gravemente.", "src/img/ryu/ryuAtaque1.gif", 151, 362, 328, 398, "src/img/ryu/ryuDefensa1.gif", 151, 362, 328, 398, "src/img/ryu/ryuDescanso1.gif", 151, 362, 328, 398, "src/img/ryu/RyuDerrota1.gif", 0, 362, 479, 398, "src/img/ryu/ryuPose1.gif", 151, 362, 328, 398,"src/img/pantallas/ryuMap.gif","src/sound/ryuTheme.aiff",ryu);
@@ -242,11 +241,11 @@ public class MainActivity extends AppCompatActivity {
                 .into(imageView);
         ImageView comabtiente1 = findViewById(R.id.comabtiente1);
         Glide.with(this)
-                .load(R.drawable.ryupose1)
+                .load(R.drawable.ryupose_pp)
                 .into(comabtiente1);
         ImageView comabtiente2 = findViewById(R.id.comabtiente2);
         Glide.with(this)
-                .load(R.drawable.kenpose2)
+                .load(R.drawable.kenpose_pv)
                 .into(comabtiente2);
     }
 
