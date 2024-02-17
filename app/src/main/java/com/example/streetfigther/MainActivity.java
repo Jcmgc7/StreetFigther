@@ -18,41 +18,44 @@ public class MainActivity extends AppCompatActivity {
     static ArrayList<Peleador>peleador2 = new ArrayList();
     static Peleador luchador1 = new Peleador();
     static Peleador luchador2 = new Peleador();
-    ImageView ryu= findViewById(R.id.ryu);
-    ImageView ken= findViewById(R.id.ken);
-    ImageView chunli= findViewById(R.id.chunli);
-    ImageView guile= findViewById(R.id.guile);
-    ImageView honda= findViewById(R.id.honda);
-    ImageView dhalsim= findViewById(R.id.dhalsim);
-    ImageView blanka= findViewById(R.id.blanka);
-    ImageView zangief= findViewById(R.id.zangief);
-    ImageView deejay= findViewById(R.id.deejay);
-    ImageView thawk= findViewById(R.id.thawk);
-    ImageView cammy= findViewById(R.id.cammy);
-    ImageView vega = findViewById(R.id.vega);
-    ImageView balrog = findViewById(R.id.balrog);
-    ImageView sagat = findViewById(R.id.sagat);
-    ImageView bison = findViewById(R.id.bison);
-    ImageView ryu_2= findViewById(R.id.ryu_2);
-    ImageView ken_2= findViewById(R.id.ken_2);
-    ImageView chunli_2= findViewById(R.id.chunli_2);
-    ImageView guile_2= findViewById(R.id.guile_2);
-    ImageView honda_2= findViewById(R.id.honda_2);
-    ImageView dhalsim_2= findViewById(R.id.dhalsim_2);
-    ImageView blanka_2= findViewById(R.id.blanka_2);
-    ImageView zangief_2= findViewById(R.id.zangief_2);
-    ImageView deejay_2= findViewById(R.id.deejay_2);
-    ImageView thawk_2= findViewById(R.id.thawk_2);
-    ImageView cammy_2= findViewById(R.id.cammy_2);
-    ImageView vega_2= findViewById(R.id.vega_2);
-    ImageView balrog_2 = findViewById(R.id.balrog_2);
-    ImageView sagat_2 = findViewById(R.id.sagat_2);
-    ImageView bison_2 = findViewById(R.id.bison_2);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageView ryu= findViewById(R.id.ryu);
+        ImageView ken= findViewById(R.id.ken);
+        ImageView chunli= findViewById(R.id.chunli);
+        ImageView guile= findViewById(R.id.guile);
+        ImageView honda= findViewById(R.id.honda);
+        ImageView dhalsim= findViewById(R.id.dhalsim);
+        ImageView blanka= findViewById(R.id.blanka);
+        ImageView zangief= findViewById(R.id.zangief);
+        ImageView deejay= findViewById(R.id.deejay);
+        ImageView thawk= findViewById(R.id.thawk);
+        ImageView cammy= findViewById(R.id.cammy);
+        ImageView vega = findViewById(R.id.vega);
+        ImageView balrog = findViewById(R.id.balrog);
+        ImageView sagat = findViewById(R.id.sagat);
+        ImageView bison = findViewById(R.id.bison);
+        ImageView ryu_2= findViewById(R.id.ryu_2);
+        ImageView ken_2= findViewById(R.id.ken_2);
+        ImageView chunli_2= findViewById(R.id.chunli_2);
+        ImageView guile_2= findViewById(R.id.guile_2);
+        ImageView honda_2= findViewById(R.id.honda_2);
+        ImageView dhalsim_2= findViewById(R.id.dhalsim_2);
+        ImageView blanka_2= findViewById(R.id.blanka_2);
+        ImageView zangief_2= findViewById(R.id.zangief_2);
+        ImageView deejay_2= findViewById(R.id.deejay_2);
+        ImageView thawk_2= findViewById(R.id.thawk_2);
+        ImageView cammy_2= findViewById(R.id.cammy_2);
+        ImageView vega_2= findViewById(R.id.vega_2);
+        ImageView balrog_2 = findViewById(R.id.balrog_2);
+        ImageView sagat_2 = findViewById(R.id.sagat_2);
+        ImageView bison_2 = findViewById(R.id.bison_2);
+
         Peleador ryu1 = new Peleador("Ryu", "src/img/paises/japon.png", 26, 1.75, 85, 27, 32, 31, "Luchador entrenado por Gouken famoso por su potente Hadoken, golpe ganador con el que \r\n"
                 + "derrotó a Sagat en el primer torneo y lo hirió gravemente.", "src/img/ryu/ryuAtaque1.gif", 151, 362, 328, 398, "src/img/ryu/ryuDefensa1.gif", 151, 362, 328, 398, "src/img/ryu/ryuDescanso1.gif", 151, 362, 328, 398, "src/img/ryu/RyuDerrota1.gif", 0, 362, 479, 398, "src/img/ryu/ryuPose1.gif", 151, 362, 328, 398,"src/img/pantallas/ryuMap.gif","src/sound/ryuTheme.aiff",ryu);
 
@@ -219,12 +222,12 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this)
                 .load(R.drawable.fondo)
                 .into(imageView);
-        ImageView star = findViewById(R.id.start);
-        Glide.with(this)
-                .load(R.drawable.start)
-                .into(imageView);
+        ImageView start = findViewById(R.id.start);
+        start.setVisibility(View.VISIBLE);
     }
     public void start(View view){
+        ImageView start = findViewById(R.id.start);
+        start.setVisibility(View.INVISIBLE);
         ImageView imageView = findViewById(R.id.imageView);
         Glide.with(this)
                 .load(R.drawable.mapa_mundi)
